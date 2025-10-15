@@ -1,11 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple market</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple market</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="market">
+        <section class="container-shopping-cart">
+          <header class="cart-header">
+            <h2 class="cart-title">Carrinho</h2>
+          </header>
+
+          <section class="items">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+          </section>
+
+          <footer class="container-total-value">
+            <div class="total-value">
+              <span class="text">Total:</span>
+              <span class="value">R$ 0,00</span>
+            </div>
+          </footer>
+        </section>
+
+        <div>
+          <section class="container-products">
+            <header class="title">
+              <h2>Produtos</h2>
+            </header>
+
+            <section class="products">
+              <div class="product"></div>
+              <div class="product"></div>
+              <div class="product"></div>
+            </section>
+          </section>
+
+          <aside class="container-buy">
+            <label class="visually-hidden" for="buyer-name">Nome</label>
+            <input id="buyer-name" class="input-buy" type="text" placeholder="Digite seu nome" />
+            <button class="btn-buy">Comprar</button>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
